@@ -8,7 +8,7 @@ local keys = {
     end,
     mode = "n",
     desc = "",
-    { silent = true },
+    silent = true,
   },
 }
 
