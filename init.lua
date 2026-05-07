@@ -12,16 +12,23 @@ local spec = {
   --commit = "",
   --version = "",
   --ft = require("plugins.PLUGIN_NAME.ft"),
+  --ft = require("denops-plugins.PLUGIN_NAME.ft"),
   --cmd = require("plugins.PLUGIN_NAME.cmds"),
+  --cmd = require("denops-plugins.PLUGIN_NAME.cmds"),
   --keys = require("plugins.PLUGIN_NAME.keys"),
+  --keys = require("denops-plugins.PLUGIN_NAME.keys"),
   --event = require("plugins.PLUGIN_NAME.events"),
+  --event = require("denops-plugins.PLUGIN_NAME.events"),
   --dependencies = require("plugins.PLUGIN_NAME.dependencies"),
+  --dependencies = require("denops-plugins.PLUGIN_NAME.dependencies"),
   --init = function()
   --    INIT
   --end,
   --opts = require("plugins.PLUGIN_NAME.opts"),
+  --opts = require("denops-plugins.PLUGIN_NAME.opts"),
   --config = function()
-  --    INIT
+  --local opts = require("plugins.PLUGIN_NAME.opts")
+  --local opts = require("denops-plugins.PLUGIN_NAME.opts")
   --end,
   --main = ""
   --pin = false,
