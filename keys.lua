@@ -8,6 +8,8 @@ local keys = {
     end,
     mode = "n",
     desc = "",
+    --expr = true,
+    --noremap = true,
     silent = true,
   },
 }
