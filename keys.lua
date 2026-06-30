@@ -6,11 +6,19 @@ local keys = {
     function()
       -- TODO: it
     end,
-    mode = "n",
-    desc = "",
-    --expr = true,
-    --noremap = true,
-    silent = true,
+    mode = {
+      "n",
+      -- TODO: it
+      --"x",
+      --"v",
+    },
+    {
+      desc = "",
+      -- TODO: it
+      --expr = true,
+      --noremap = true,
+      silent = true,
+    },
   },
 }
 
