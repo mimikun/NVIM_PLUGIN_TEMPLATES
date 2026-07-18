@@ -1,0 +1,20 @@
+[selene]
+base = "lua51"
+name = "globals"
+
+[vim]
+any = true
+
+[bit]
+any = true
+
+# Neovim runs on LuaJIT, which exposes `jit` and gives the io file handles the
+# 5.1 method set that selene's lua51 std does not spell out.
+[jit]
+any = true
+
+[io.stderr]
+any = true
+
+[io.stdout]
+any = true
