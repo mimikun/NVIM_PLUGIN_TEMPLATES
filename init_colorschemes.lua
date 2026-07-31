@@ -16,17 +16,17 @@ local spec = {
   --submodules = false,
   --module = false,
   --optional = false,
-  --ft = require("plugins.PLUGIN_NAME.ft"),
-  --cmd = require("plugins.PLUGIN_NAME.cmds"),
-  --keys = require("plugins.PLUGIN_NAME.keys"),
-  --event = require("plugins.PLUGIN_NAME.events"),
-  --dependencies = require("plugins.PLUGIN_NAME.dependencies"),
+  --ft = require("colorschemes.PLUGIN_NAME.ft"),
+  --cmd = require("colorschemes.PLUGIN_NAME.cmds"),
+  --keys = require("colorschemes.PLUGIN_NAME.keys"),
+  --event = require("colorschemes.PLUGIN_NAME.events"),
+  --dependencies = require("colorschemes.PLUGIN_NAME.dependencies"),
   --init = function()
   --  -- NOTE: INIT
   --end,
-  --opts = require("plugins.PLUGIN_NAME.opts"),
+  --opts = require("colorschemes.PLUGIN_NAME.opts"),
   --config = function()
-  --  local opts = require("plugins.PLUGIN_NAME.opts")
+  --  local opts = require("colorschemes.PLUGIN_NAME.opts")
   --end,
   --priority = 1000,
   cond = false,
